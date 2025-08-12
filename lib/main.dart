@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:gemini_app/config/navigation/routes.dart';
+import 'package:gemini_app/config/theme/app_theme.dart';
 import 'package:get/get.dart';
 
 
 void main() {
+
+  AppTheme.setSystemUIOverlayStyle(isDarkMode: true);
+
   runApp(const MyApp());
 }
 
@@ -21,6 +25,9 @@ class MyApp extends StatelessWidget {
       initialRoute: Navigation.home,
       getPages: Navigation.getRoutes(),
       navigatorKey: Get.key,
+
+      // Tema
+      theme: AppTheme(isDarkMode: true).getTheme(),
     );
   }
 }
