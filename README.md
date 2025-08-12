@@ -1,16 +1,30 @@
-# gemini_app
 
-A new Flutter project.
+# <p align="center">Gemini App</p>
 
-## Getting Started
+$${Hecho \space con \space \color{blue}Flutter}$$
 
-This project is a starting point for a Flutter application.
+Descripción
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+*****
+## <g>DEV</g>
+Ningún paso extra es necesario
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+*****
+## <pu>Stack</pu>
+* Flutter
+
+*****
+## <pu>Dependecias usadas</pu>
+* [go_router](https://pub.dev/packages/go_router)
+* [image_picker](https://pub.dev/packages/image_picker)
+* [flutter_chat_ui](https://pub.dev/packages/flutter_chat_ui)
+* [uuid](https://pub.dev/packages/uuid)
+* [dio](https://pub.dev/packages/dio)
+* [get](https://pub.dev/packages/get)
+* [get](https://pub.dev/packages/get)
+* [riverpod](https://riverpod.dev/docs/introduction/getting_started)
+
