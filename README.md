@@ -8,7 +8,10 @@ Descripción
 
 *****
 ## <g>DEV</g>
-Ningún paso extra es necesario
+1. Ejecutar el comando: 
+    ```dart
+    dart run build_runner watch -d
+    ```
 
 
 
